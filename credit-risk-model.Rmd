@@ -1,17 +1,8 @@
 ---
-title: "credit-risk-model"
-knit: (function(input_file, encoding) {
-  out_dir <- 'docs';
-  rmarkdown::render(input_file,
- encoding=encoding,
- output_file=file.path(dirname(input_file), out_dir, 'index.html'))})
+title: "credit risk model"
 author: "Parth Lakdawala"
 date: "February 20, 2020"
-output: html_document
 ---
-```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
 Link : [kaggle](https://www.kaggle.com/lakdawalaparth/german-credit-risk-analysis)
 
 * Introduction
